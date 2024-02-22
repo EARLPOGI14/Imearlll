@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Love Letter</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fdeee1; /* Light peach background */
+            text-align: center;
+            padding: 20px;
+            color: #333; /* Dark gray text color */
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #loveLetter {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        h1 {
+            color: #e44d26; /* Coral heading color */
+            font-size: 28px; /* Increased font size */
+            font-weight: bold; /* Bold text */
+            margin-bottom: 15px; /* Spacing between heading and paragraphs */
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 18px; /* Increased font size */
+            margin-bottom: 15px; /* Spacing between paragraphs */
+        }
+
+        footer {
+            margin-top: 20px;
+            font-style: italic;
+            color: #666; /* Dark gray footer color */
+            font-size: 16px; /* Increased font size */
+        }
+
+        #revealButton {
+            background-color: #e44d26; /* Coral button color */
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 18px; /* Increased font size */
+            font-weight: bold; /* Bold text */
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px; /* Spacing between button and content */
+        }
+
+            #revealButton:hover {
+                background-color: #d1401f; /* Slightly darker coral on hover */
+            }
+
+        /* Cute emoji styles */
+        .emoji {
+            font-size: 24px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>GAWA TO NI EARLCIST, <span class="emoji">🌟</span></h1>
+        <p>Before you open this letter, let me express how much you mean to me. Your love has brought immense joy and warmth into my life. Now, go ahead and tap the button to reveal my feelings for you. <span class="emoji">💖</span></p>
+        <button id="revealButton" onclick="revealLetter()">Tap to Reveal Love Letter</button>
+
+        <div id="loveLetter">
+            <h1>My Love, <span class="emoji">❤️</span></h1>
+
+            <p>I wanted to take a moment to express my feelings for you. You are the sunshine that brightens my day and the moonlight that guides me through the night. <span class="emoji">🌙</span></p>
+
+            <p>With each passing day, my love for you grows stronger. Your laughter is my favorite melody, and your presence is my greatest comfort. <span class="emoji">😄</span></p>
+
+            <p>Thank you for being the wonderful person that you are. I am grateful for the love we share and the beautiful moments we create together. <span class="emoji">🌈</span></p>
+
+            <p>Your kindness and understanding fill my heart with warmth, and I cherish every moment we spend together. <span class="emoji">💑</span></p>
+
+            <p>You are my rock, my confidant, and my greatest support. I am blessed to have you in my life. <span class="emoji">🙏</span></p>
+
+            <p>As we continue this journey together, I look forward to creating more memories, facing challenges hand in hand, and building a future filled with love and happiness. <span class="emoji">💕</span></p>
+
+            <p>And if your beauty were the embers of fire, i'd set the world ablaze just to see you every where in my final moments (pinopormahan kita hehehehe)</p>
+           
+            <p>Forever yours, <span class="emoji">💘</span><br>hahaha gago ka ba suntukan na lang</p>
+        </div>
+
+        <footer>Created by using hands and feet heheehehhe <span class="emoji">🌼</span></footer>
+    </div>
+
+    <script>
+        function revealLetter() {
+            document.getElementById('loveLetter').style.display = 'block';
+            document.getElementById('revealButton').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
+
+
